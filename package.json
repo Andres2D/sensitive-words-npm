@@ -1,0 +1,25 @@
+{
+  "name": "2d-sensitive-words",
+  "version": "1.0.0",
+  "description": "Filter out a list of sensitive words",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Andres2D/sensitive-words-npm.git"
+  },
+  "keywords": [
+    "filter",
+    "filtering",
+    "sensitive",
+    "words"
+  ],
+  "author": "Andres Alcaraz, 2D (https://andres-alcaraz.netlify.app/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Andres2D/sensitive-words-npm/issues"
+  },
+  "homepage": "https://github.com/Andres2D/sensitive-words-npm#readme"
+}
