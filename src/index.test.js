@@ -1,4 +1,4 @@
-import sensitiveWords from '.';
+import { sensitiveWords } from '.';
 
 test('Replaces a single word with asterisks', () => {
   const message = 'The name of the NX will be egghead application';
