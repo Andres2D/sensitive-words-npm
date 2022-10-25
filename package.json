@@ -5,10 +5,13 @@
   "main": "build/index.js",
   "scripts": {
     "build": "babel src -d build",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "watch 'npm run build' src"
   },
   "babel": {
-    "presets": ["latest"]
+    "presets": [
+      "latest"
+    ]
   },
   "repository": {
     "type": "git",
@@ -28,6 +31,7 @@
   "homepage": "https://github.com/Andres2D/sensitive-words-npm#readme",
   "dependencies": {
     "babel-cli": "^6.26.0",
-    "babel-preset-latest": "^6.24.1"
+    "babel-preset-latest": "^6.24.1",
+    "watch": "^1.0.2"
   }
 }
